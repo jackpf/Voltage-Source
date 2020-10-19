@@ -5526,11 +5526,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <wire x1="40.64" y1="96.52" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
 <label x="40.64" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<pinref part="OPAMP2" gate="P" pin="V+"/>
-<wire x1="106.68" y1="96.52" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
-<label x="106.68" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -5641,11 +5636,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <wire x1="40.64" y1="81.28" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 <label x="40.64" y="78.74" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
-<segment>
-<pinref part="OPAMP2" gate="P" pin="V-"/>
-<wire x1="106.68" y1="81.28" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
-<label x="106.68" y="78.74" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -5714,6 +5704,20 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <pinref part="OPAMP1" gate="A" pin="-IN"/>
 <wire x1="48.26" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="68.58" x2="33.02" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="OPAMP2" gate="P" pin="V-"/>
+<wire x1="106.68" y1="81.28" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
+<label x="106.68" y="78.74" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="OPAMP2" gate="P" pin="V+"/>
+<wire x1="106.68" y1="96.52" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
+<label x="106.68" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>

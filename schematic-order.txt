@@ -1,0 +1,10 @@
+Order list for /Users/jackfarrelly/Documents/EAGLE/projects/Voltage Source/schematic.sch
+Exported from EAGLE with DesignLink
+
+Quantity	Value	Package	Order code	Manufacturer	Manuf. Code	Availability	Price (from)	Description
+1	ON_SEMI_1N751AON_SEMI_1N751A_0_0	ON_SEMI_1N751A_0	13T8945	MULTICOMP PRO	1N751A	84778	0.022	MULTICOMP PRO - 1N751A - Zener Single Diode, 5.1 V, 500 mW, DO-204AH, 5 %, 2 Pins, 200 &#176;C
+2	TL072	DIL08-SML	33AH5102	TEXAS INSTRUMENTS	TL072IP	4789	0.236	TEXAS INSTRUMENTS - TL072IP - IC, OP AMP, JFET, PDIP8
+4	THONKICONNNEW	WQP-PJ301M-12_JACK	unknown					
+1	POWER_SIMPLE10	POWER_10	unknown					
+1	1K	0204/5	71M1025	VISHAY	CCF551K00FKE36	11412	0.016	VISHAY - CCF551K00FKE36 - Through Hole Resistor, 1 kohm, CCF Series, 500 mW, &#177; 1%, Axial Leaded, 250 V
+4		9MM_SNAP-IN_POT	unknown					
